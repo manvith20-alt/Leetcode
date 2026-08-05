@@ -11,8 +11,7 @@ class Solution {
             right++;
     
             while(map.size()>2){
-                if(map.get(fruits[left])>0)
-                    map.put(fruits[left],map.get(fruits[left])-1);
+                map.put(fruits[left],map.get(fruits[left])-1);
                 if (map.get(fruits[left]) == 0)
                     map.remove(fruits[left]);
                 left++;
