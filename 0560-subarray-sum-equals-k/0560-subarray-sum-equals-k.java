@@ -8,9 +8,8 @@ class Solution {
         map.put(0,1);
         for(int right=0; right<n;right++){
             prefixsum += nums[right];
-            target = prefixsum-k;
-            if(map.containsKey(target)){
-                count+=map.get(target);
+            if(map.containsKey(prefixsum-k)){
+                count+=map.get(prefixsum-k);
             }
             map.put(prefixsum,map.getOrDefault(prefixsum,0)+1);
 
