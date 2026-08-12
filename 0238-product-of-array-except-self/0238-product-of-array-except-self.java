@@ -1,28 +1,21 @@
 class Solution {
     public int[] productExceptSelf(int[] nums) {
         int n = nums.length;
-        int prefix=1;
-        int post=1;
-        int[] ans = new int[n];
-        int[] back = new int[n];
-        HashMap<Integer,Integer> map = new HashMap<>();
+        int[] res = new int[n];
 
-        for(int i=0;i<n;i++){
-            map.put(nums[i],map.getOrDefault(nums[i],0)+1);
-            prefix *= nums[i];
-            if(nums[i]!=0)
-                post *= nums[i];
+        res[0] = 1;
+
+        for(int l=1;l<n;l++){
+            res[l] = res[l-1]*nums[l-1];
         }
-        for(int j=0;j<n;j++){
-            if(nums[j]==0){
-                if(map.get(nums[j])>=2)
-                    return back;
-                else
-                    ans[j]=post;
-            }
-            else
-                ans[j]=prefix/nums[j];
+
+        int rightproduct =1;
+
+        for(int r=n-1;r>=0;r--){
+            res[r] = res[r]*rightproduct;
+            rightproduct *= nums[r];
         }
-    return ans;
+    
+    return res;
     }
 }
