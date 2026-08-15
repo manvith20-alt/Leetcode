@@ -6,15 +6,15 @@ class Solution {
         int curmin=0;
         int total=0;
 
-       for (int num : nums) {
-    curmax = Math.max(num, curmax + num);
-    maxsum = Math.max(maxsum, curmax);
+        for(int i=0; i<nums.length;i++){
+            curmax=Math.max(nums[i],curmax+nums[i]);
+            maxsum=Math.max(curmax,maxsum);
 
-    curmin = Math.min(num, curmin + num);
-    minsum = Math.min(minsum, curmin);
+            curmin=Math.min(nums[i],curmin+nums[i]);
+            minsum=Math.min(curmin,minsum);
 
-    total += num;
-}
+            total+=nums[i];
+        }
 
         if(maxsum<0)
             return maxsum;
