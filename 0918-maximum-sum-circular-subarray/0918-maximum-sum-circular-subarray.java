@@ -1,8 +1,8 @@
 class Solution {
     public int maxSubarraySumCircular(int[] nums) {
-        int maxsum=Integer.MIN_VALUE;
+        int maxsum=nums[0];
         int curmax=0;
-        int minsum=Integer.MAX_VALUE;
+        int minsum=nums[0];
         int curmin=0;
         int total=0;
 
