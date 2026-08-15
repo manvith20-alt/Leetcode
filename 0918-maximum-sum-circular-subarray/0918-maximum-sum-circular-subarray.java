@@ -1,34 +1,25 @@
 class Solution {
     public int maxSubarraySumCircular(int[] nums) {
+        int maxsum=Integer.MIN_VALUE;
+        int curmax=0;
+        int minsum=Integer.MAX_VALUE;
+        int curmin=0;
+        int total=0;
 
-        int total = 0;
+        for(int i=0; i<nums.length;i++){
+            curmax=Math.max(nums[i],curmax+nums[i]);
+            maxsum=Math.max(curmax,maxsum);
 
-        int curMax = 0;
-        int maxSum = Integer.MIN_VALUE;
+            curmin=Math.min(nums[i],curmin+nums[i]);
+            minsum=Math.min(curmin,minsum);
 
-        int curMin = 0;
-        int minSum = Integer.MAX_VALUE;
-
-        for (int num : nums) {
-
-            // Normal Kadane
-            curMax = Math.max(num, curMax + num);
-            maxSum = Math.max(maxSum, curMax);
-
-            // Minimum Kadane
-            curMin = Math.min(num, curMin + num);
-            minSum = Math.min(minSum, curMin);
-
-            total += num;
+            total+=nums[i];
         }
 
-        // All elements are negative
-        if (maxSum < 0) {
-            return maxSum;
-        }
+        if(maxsum<0)
+            return maxsum;
 
-        int circularSum = total - minSum;
-
-        return Math.max(maxSum, circularSum);
+        int answer = total - minsum;
+        return Math.max(answer,maxsum);
     }
 }
