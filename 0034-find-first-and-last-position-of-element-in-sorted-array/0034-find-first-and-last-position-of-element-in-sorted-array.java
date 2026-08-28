@@ -1,55 +1,45 @@
 class Solution {
     public int[] searchRange(int[] nums, int target) {
 
-        int first = findFirst(nums, target);
-        int last = findLast(nums, target);
+        int lower = lowerbond(nums,target);
+        int upper = upperbond(nums,target);
 
-        return new int[]{first, last};
-    }
-
-    private int findFirst(int[] nums, int target) {
-        int left = 0;
-        int right = nums.length - 1;
-        int ans = -1;
-
-        while (left <= right) {
-            int mid = left + (right - left) / 2;
-
-            if (nums[mid] == target) {
-                ans = mid;
-                right = mid - 1;   // search further left
-            }
-            else if (nums[mid] < target) {
-                left = mid + 1;
-            }
-            else {
-                right = mid - 1;
-            }
+         if (lower == nums.length || nums[lower] != target) {
+            return new int[]{-1, -1};
         }
 
-        return ans;
+        return new int[]{lower, upper - 1};
+
     }
 
-    private int findLast(int[] nums, int target) {
-        int left = 0;
-        int right = nums.length - 1;
-        int ans = -1;
 
-        while (left <= right) {
-            int mid = left + (right - left) / 2;
+private int upperbond(int[] nums,int target){
+        int left=0;
+        int right=nums.length;
 
-            if (nums[mid] == target) {
-                ans = mid;
-                left = mid + 1;    // search further right
-            }
-            else if (nums[mid] < target) {
-                left = mid + 1;
-            }
-            else {
-                right = mid - 1;
-            }
+        while(left<right){
+            int mid = left+(right-left)/2;
+
+            if(nums[mid]>target)
+                right=mid;
+            else
+                left=mid+1;
         }
+        return left;
+    }
 
-        return ans;
+private int lowerbond(int[] nums,int target){
+        int left=0;
+        int right=nums.length;
+
+        while(left<right){
+            int mid = left+(right-left)/2;
+
+            if(nums[mid]>=target)
+                right=mid;
+            else
+                left=mid+1;
+        }
+        return left;
     }
 }
