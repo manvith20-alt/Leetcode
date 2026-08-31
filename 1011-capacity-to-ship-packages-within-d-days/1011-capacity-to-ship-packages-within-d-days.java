@@ -3,9 +3,7 @@ class Solution {
 
         int left = 0;
         int right = 0;
-
-        // Minimum capacity = heaviest package
-        // Maximum capacity = total weight
+        
         for (int weight : weights) {
             left = Math.max(left, weight);
             right += weight;
