@@ -1,33 +1,32 @@
 class Solution {
     public int minSpeedOnTime(int[] dist, double hour) {
-
-        int n = dist.length;
-        if (hour <= n - 1) {
+        int low=1;
+        int high=10000000;
+         if (hour <= dist.length - 1) {
             return -1;
         }
 
-        int left = 1;
-        int right = 10_000_000;
-
-        while (left < right) {
-
-            int mid = left + (right - left) / 2;
-
-            double time = 0;
-
-            for (int i = 0; i < n - 1; i++) {
-                time += Math.ceil((double) dist[i] / mid);
+        while(low<high){
+            int mid = low + (high-low)/2;
+            if(possible(mid,hour,dist)){
+                high=mid;
             }
-
-            time += (double) dist[n - 1] / mid;
-
-            if (time <= hour) {
-                right = mid;
-            } else {
-                left = mid + 1;
+            else{
+                low=mid+1;
             }
         }
+        return low;
+    }
 
-        return left;
+    private boolean possible(int mid,double hour,int[] dist){
+        double h=0;
+        for(int i=0;i<dist.length-1;i++){
+            h += (dist[i]+mid-1)/mid;
+        }
+        h += (double)dist[dist.length - 1]/mid;
+
+        if(h<=hour)return true;
+
+        return false;
     }
 }
