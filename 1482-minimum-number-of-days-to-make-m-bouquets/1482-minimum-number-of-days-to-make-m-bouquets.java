@@ -5,41 +5,48 @@ class Solution {
             return -1;
         }
 
-        int left = 1;
-        int right = 0;
-
+        int low = 1;
+        int high = 0;
         for (int day : bloomDay) {
-            right = Math.max(right, day);
+            high = Math.max(high, day);
         }
 
-        while (left < right) {
+        while (low < high) {
 
-            int mid = left + (right - left) / 2;
+            int mid = low + (high - low) / 2;
 
-            int bouquets = 0;
-            int flowers = 0;
+            if (possible(mid, bloomDay, m, k)) {
+                high = mid;
+            } else {
+                low = mid + 1;
+            }
+        }
 
-            for (int day : bloomDay) {
+        return low;
+    }
 
-                if (day <= mid) {
-                    flowers++;
+    private boolean possible(int day, int[] bloomDay, int m, int k) {
 
-                    if (flowers == k) {
-                        bouquets++;
-                        flowers = 0;
-                    }
-                } else {
+        int flowers = 0;
+        int bouquets = 0;
+
+        for (int bloom : bloomDay) {
+
+            if (bloom <= day) {
+                flowers++;
+                if (flowers == k) {
+                    bouquets++;
                     flowers = 0;
                 }
+
+            } else {
+                flowers = 0;
             }
 
             if (bouquets >= m) {
-                right = mid;
-            } else {
-                left = mid + 1;
+                return true;
             }
         }
-
-        return left;
+        return false;
     }
 }
