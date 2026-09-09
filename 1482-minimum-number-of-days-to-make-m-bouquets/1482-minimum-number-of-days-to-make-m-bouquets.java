@@ -11,11 +11,11 @@ class Solution {
             high = Math.max(high,b);
         }
 
-        while(low<=high){
+        while(low<high){
             int mid = low + (high-low)/2;
 
             if(cancreate(mid,k,m,bloomDay)){
-                high = mid-1;
+                high = mid;
             }
             else{
                 low=mid+1;
