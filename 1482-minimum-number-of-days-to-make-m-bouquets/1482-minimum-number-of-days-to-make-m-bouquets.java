@@ -1,52 +1,45 @@
 class Solution {
     public int minDays(int[] bloomDay, int m, int k) {
-
-        if ((long) m * k > bloomDay.length) {
+        if(bloomDay.length<(long)m*k)
             return -1;
+
+        int low = Integer.MAX_VALUE;
+        int high = Integer.MIN_VALUE;
+
+        for(int b: bloomDay){
+            low = Math.min(low,b);
+            high = Math.max(high,b);
         }
 
-        int low = 1;
-        int high = 0;
-        for (int day : bloomDay) {
-            high = Math.max(high, day);
-        }
+        while(low<=high){
+            int mid = low + (high-low)/2;
 
-        while (low < high) {
-
-            int mid = low + (high - low) / 2;
-
-            if (possible(mid, bloomDay, m, k)) {
-                high = mid;
-            } else {
-                low = mid + 1;
+            if(cancreate(mid,k,m,bloomDay)){
+                high = mid-1;
             }
+            else{
+                low=mid+1;
+            } 
         }
-
         return low;
     }
 
-    private boolean possible(int day, int[] bloomDay, int m, int k) {
+    private boolean cancreate(int day,int k,int m,int[] bloomDay){
+        int flower=0;
+        int bouque=0;
 
-        int flowers = 0;
-        int bouquets = 0;
-
-        for (int bloom : bloomDay) {
-
-            if (bloom <= day) {
-                flowers++;
-                if (flowers == k) {
-                    bouquets++;
-                    flowers = 0;
+        for(int bloom : bloomDay){
+            if(bloom<=day){
+                flower++;
+                if(flower==k){
+                    bouque++;
+                    flower=0;
                 }
-
-            } else {
-                flowers = 0;
             }
-
-            if (bouquets >= m) {
-                return true;
+            else{
+                flower=0;
             }
         }
-        return false;
+        return bouque>=m;
     }
 }
