@@ -1,42 +1,49 @@
 class Solution {
     public int splitArray(int[] nums, int k) {
+        
+       if (nums.length < k)
+            return -1;
 
-        int low = 0;
-        int high = 0;
-        for (int num : nums) {
-            low = Math.max(low, num);
-            high += num;
+        long low = 0;
+        long high = 0;
+
+        for (int n : nums) {
+            low = Math.max(low, n);
+            high += n;
         }
 
-        while (low < high) {
+        long ans = high;
 
-            int mid = low + (high - low) / 2;
+        while (low <= high) {
 
-            if (canSplit(nums, k, mid)) {
-                high = mid;       
+            long mid = low + (high - low) / 2;
+
+            if (canAllocate(nums, k, mid)) {
+                ans = mid;
+                high = mid - 1;
             } else {
-                low = mid + 1;    
+                low = mid + 1;
             }
         }
 
-        return low;
+        return (int) ans;
     }
 
-    private boolean canSplit(int[] nums, int k, int maxSum) {
+    private static boolean canAllocate(int[] arr, int k, long mid) {
 
-        int parts = 1;
-        int sum = 0;
+        int count = 1;
+        long pagesum = 0;
 
-        for (int num : nums) {
+        for (int page : arr) {
 
-            if (sum + num > maxSum) {
-                parts++;
-                sum = num;
+            if (pagesum + page <= mid) {
+                pagesum += page;
             } else {
-                sum += num;
+                count++;
+                pagesum = page;
             }
         }
 
-        return parts <= k;
+        return count <= k;
     }
 }
