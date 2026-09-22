@@ -150,6 +150,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0496-next-greater-element-i](https://github.com/manvith20-alt/Leetcode/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/manvith20-alt/Leetcode/tree/master/0503-next-greater-element-ii) |
 | [0739-daily-temperatures](https://github.com/manvith20-alt/Leetcode/tree/master/0739-daily-temperatures) |
+| [0901-online-stock-span](https://github.com/manvith20-alt/Leetcode/tree/master/0901-online-stock-span) |
 ## Monotonic Stack
 |  |
 | ------- |
@@ -157,6 +158,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0496-next-greater-element-i](https://github.com/manvith20-alt/Leetcode/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/manvith20-alt/Leetcode/tree/master/0503-next-greater-element-ii) |
 | [0739-daily-temperatures](https://github.com/manvith20-alt/Leetcode/tree/master/0739-daily-temperatures) |
+| [0901-online-stock-span](https://github.com/manvith20-alt/Leetcode/tree/master/0901-online-stock-span) |
 ## Queue
 |  |
 | ------- |
@@ -220,4 +222,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0069-sqrtx](https://github.com/manvith20-alt/Leetcode/tree/master/0069-sqrtx) |
+## Design
+|  |
+| ------- |
+| [0901-online-stock-span](https://github.com/manvith20-alt/Leetcode/tree/master/0901-online-stock-span) |
+## Data Stream
+|  |
+| ------- |
+| [0901-online-stock-span](https://github.com/manvith20-alt/Leetcode/tree/master/0901-online-stock-span) |
 <!---LeetCode Topics End-->
