@@ -6,13 +6,15 @@ class Solution {
 
         Stack<Integer> stack = new Stack<>();
 
-        for (int i = 0; i < n; i++) {
+        for (int i = n - 1; i >= 0; i--) {
 
             while (!stack.isEmpty() &&
-                   temperatures[stack.peek()] < temperatures[i]) {
+                   temperatures[stack.peek()] <= temperatures[i]) {
+                stack.pop();
+            }
 
-                int prev = stack.pop();
-                ans[prev] = i - prev;
+            if (!stack.isEmpty()) {
+                ans[i] = stack.peek() - i;
             }
 
             stack.push(i);
