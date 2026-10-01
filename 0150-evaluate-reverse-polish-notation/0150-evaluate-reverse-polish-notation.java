@@ -16,19 +16,19 @@ class Solution {
                 sum = fst+sec;
                 stack.push(sum);
                }
-               if(ch.equals("-")){
+               else if(ch.equals("-")){
                 sec=stack.pop();
                 fst=stack.pop();
                 sum = fst-sec;
                 stack.push(sum);
                }
-               if(ch.equals("*")){
+               else if(ch.equals("*")){
                 sec=stack.pop();
                 fst=stack.pop();
                 sum = fst*sec;
                 stack.push(sum);
                }
-               if(ch.equals("/")){
+               else {
                 sec=stack.pop();
                 fst=stack.pop();
                 sum = fst/sec;
