@@ -3,7 +3,8 @@ class Solution {
         Stack<Character> stack = new Stack<>();
 
         for(char ch : s.toCharArray()){
-            if(!stack.isEmpty() && (stack.peek()==(char)(ch-32) || (stack.peek()==(char)ch+32))){
+            if(!stack.isEmpty() && Math.abs(stack.peek()-ch)==32)
+            {
                 stack.pop();
             }
             else{
