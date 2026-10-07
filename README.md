@@ -162,6 +162,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0150-evaluate-reverse-polish-notation](https://github.com/manvith20-alt/Leetcode/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0224-basic-calculator](https://github.com/manvith20-alt/Leetcode/tree/master/0224-basic-calculator) |
 | [0227-basic-calculator-ii](https://github.com/manvith20-alt/Leetcode/tree/master/0227-basic-calculator-ii) |
+| [0232-implement-queue-using-stacks](https://github.com/manvith20-alt/Leetcode/tree/master/0232-implement-queue-using-stacks) |
 | [0394-decode-string](https://github.com/manvith20-alt/Leetcode/tree/master/0394-decode-string) |
 | [0496-next-greater-element-i](https://github.com/manvith20-alt/Leetcode/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/manvith20-alt/Leetcode/tree/master/0503-next-greater-element-ii) |
@@ -187,6 +188,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Queue
 |  |
 | ------- |
+| [0232-implement-queue-using-stacks](https://github.com/manvith20-alt/Leetcode/tree/master/0232-implement-queue-using-stacks) |
 | [0239-sliding-window-maximum](https://github.com/manvith20-alt/Leetcode/tree/master/0239-sliding-window-maximum) |
 | [0918-maximum-sum-circular-subarray](https://github.com/manvith20-alt/Leetcode/tree/master/0918-maximum-sum-circular-subarray) |
 ## Heap (Priority Queue)
@@ -266,6 +268,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Design
 |  |
 | ------- |
+| [0232-implement-queue-using-stacks](https://github.com/manvith20-alt/Leetcode/tree/master/0232-implement-queue-using-stacks) |
 | [0901-online-stock-span](https://github.com/manvith20-alt/Leetcode/tree/master/0901-online-stock-span) |
 ## Data Stream
 |  |
