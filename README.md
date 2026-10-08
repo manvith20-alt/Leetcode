@@ -223,6 +223,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0189-rotate-array](https://github.com/manvith20-alt/Leetcode/tree/master/0189-rotate-array) |
 | [0224-basic-calculator](https://github.com/manvith20-alt/Leetcode/tree/master/0224-basic-calculator) |
 | [0227-basic-calculator-ii](https://github.com/manvith20-alt/Leetcode/tree/master/0227-basic-calculator-ii) |
+| [0412-fizz-buzz](https://github.com/manvith20-alt/Leetcode/tree/master/0412-fizz-buzz) |
 | [0523-continuous-subarray-sum](https://github.com/manvith20-alt/Leetcode/tree/master/0523-continuous-subarray-sum) |
 ## Pigeonhole Principle
 |  |
@@ -247,6 +248,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0227-basic-calculator-ii](https://github.com/manvith20-alt/Leetcode/tree/master/0227-basic-calculator-ii) |
 | [0344-reverse-string](https://github.com/manvith20-alt/Leetcode/tree/master/0344-reverse-string) |
 | [0394-decode-string](https://github.com/manvith20-alt/Leetcode/tree/master/0394-decode-string) |
+| [0412-fizz-buzz](https://github.com/manvith20-alt/Leetcode/tree/master/0412-fizz-buzz) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/manvith20-alt/Leetcode/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0567-permutation-in-string](https://github.com/manvith20-alt/Leetcode/tree/master/0567-permutation-in-string) |
 | [0647-palindromic-substrings](https://github.com/manvith20-alt/Leetcode/tree/master/0647-palindromic-substrings) |
@@ -277,6 +279,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Simulation
 |  |
 | ------- |
+| [0412-fizz-buzz](https://github.com/manvith20-alt/Leetcode/tree/master/0412-fizz-buzz) |
 | [0735-asteroid-collision](https://github.com/manvith20-alt/Leetcode/tree/master/0735-asteroid-collision) |
 | [0844-backspace-string-compare](https://github.com/manvith20-alt/Leetcode/tree/master/0844-backspace-string-compare) |
 | [2696-minimum-string-length-after-removing-substrings](https://github.com/manvith20-alt/Leetcode/tree/master/2696-minimum-string-length-after-removing-substrings) |
