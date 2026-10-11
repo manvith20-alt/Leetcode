@@ -4,6 +4,7 @@ class Solution {
 
         for (int i = 0; i < num.length(); i++) {
             char digit = num.charAt(i);
+            
             while (k > 0 && !stack.isEmpty() && stack.peek() > digit) {
                 stack.pop();
                 k--;
