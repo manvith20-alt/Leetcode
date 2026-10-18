@@ -30,6 +30,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0503-next-greater-element-ii](https://github.com/manvith20-alt/Leetcode/tree/master/0503-next-greater-element-ii) |
 | [0523-continuous-subarray-sum](https://github.com/manvith20-alt/Leetcode/tree/master/0523-continuous-subarray-sum) |
 | [0560-subarray-sum-equals-k](https://github.com/manvith20-alt/Leetcode/tree/master/0560-subarray-sum-equals-k) |
+| [0622-design-circular-queue](https://github.com/manvith20-alt/Leetcode/tree/master/0622-design-circular-queue) |
 | [0704-binary-search](https://github.com/manvith20-alt/Leetcode/tree/master/0704-binary-search) |
 | [0713-subarray-product-less-than-k](https://github.com/manvith20-alt/Leetcode/tree/master/0713-subarray-product-less-than-k) |
 | [0724-find-pivot-index](https://github.com/manvith20-alt/Leetcode/tree/master/0724-find-pivot-index) |
@@ -210,6 +211,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0225-implement-stack-using-queues](https://github.com/manvith20-alt/Leetcode/tree/master/0225-implement-stack-using-queues) |
 | [0232-implement-queue-using-stacks](https://github.com/manvith20-alt/Leetcode/tree/master/0232-implement-queue-using-stacks) |
 | [0239-sliding-window-maximum](https://github.com/manvith20-alt/Leetcode/tree/master/0239-sliding-window-maximum) |
+| [0622-design-circular-queue](https://github.com/manvith20-alt/Leetcode/tree/master/0622-design-circular-queue) |
 | [0918-maximum-sum-circular-subarray](https://github.com/manvith20-alt/Leetcode/tree/master/0918-maximum-sum-circular-subarray) |
 ## Heap (Priority Queue)
 |  |
@@ -297,6 +299,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0155-min-stack](https://github.com/manvith20-alt/Leetcode/tree/master/0155-min-stack) |
 | [0225-implement-stack-using-queues](https://github.com/manvith20-alt/Leetcode/tree/master/0225-implement-stack-using-queues) |
 | [0232-implement-queue-using-stacks](https://github.com/manvith20-alt/Leetcode/tree/master/0232-implement-queue-using-stacks) |
+| [0622-design-circular-queue](https://github.com/manvith20-alt/Leetcode/tree/master/0622-design-circular-queue) |
 | [0901-online-stock-span](https://github.com/manvith20-alt/Leetcode/tree/master/0901-online-stock-span) |
 | [1381-design-a-stack-with-increment-operation](https://github.com/manvith20-alt/Leetcode/tree/master/1381-design-a-stack-with-increment-operation) |
 ## Data Stream
@@ -322,4 +325,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0032-longest-valid-parentheses](https://github.com/manvith20-alt/Leetcode/tree/master/0032-longest-valid-parentheses) |
 | [0856-score-of-parentheses](https://github.com/manvith20-alt/Leetcode/tree/master/0856-score-of-parentheses) |
 | [0921-minimum-add-to-make-parentheses-valid](https://github.com/manvith20-alt/Leetcode/tree/master/0921-minimum-add-to-make-parentheses-valid) |
+## Linked List
+|  |
+| ------- |
+| [0622-design-circular-queue](https://github.com/manvith20-alt/Leetcode/tree/master/0622-design-circular-queue) |
 <!---LeetCode Topics End-->
