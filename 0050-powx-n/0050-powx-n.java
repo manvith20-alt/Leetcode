@@ -1,25 +1,22 @@
 class Solution {
     public double myPow(double x, int n) {
         long N = n;
-
         if (N < 0) {
-            return 1.0 / pow(x, -N);
+            N = -N;
         }
 
-        return pow(x, N);
-    }
+        double ans = 1.0;
+        double base = x;
 
-    private double pow(double x, long n) {
-        if (n == 0) {
-            return 1.0;
+        while (N > 0) {
+            if (N % 2 == 1) {
+                ans *= base;
+            }
+
+            base *= base;
+            N /= 2;
         }
 
-        double half = pow(x, n / 2);
-
-        if (n % 2 == 0) {
-            return half * half;
-        }
-
-        return half * half * x;
+        return n < 0 ? 1.0 / ans : ans;
     }
 }
