@@ -10,11 +10,14 @@ class Solution {
                 val = height[low]*(high-low);
                 low++;
             }
-            else{
+            else if(height[low]>height[high]){
                 val = height[high]*(high-low);
                 high--;
             }
-            
+            else{
+                val = height[low]*(high-low);
+                low++;
+            }
             max = Math.max(max,val);
         }
         return max;
