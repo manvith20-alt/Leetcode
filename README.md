@@ -24,6 +24,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0209-minimum-size-subarray-sum](https://github.com/manvith20-alt/Leetcode/tree/master/0209-minimum-size-subarray-sum) |
 | [0238-product-of-array-except-self](https://github.com/manvith20-alt/Leetcode/tree/master/0238-product-of-array-except-self) |
 | [0239-sliding-window-maximum](https://github.com/manvith20-alt/Leetcode/tree/master/0239-sliding-window-maximum) |
+| [0283-move-zeroes](https://github.com/manvith20-alt/Leetcode/tree/master/0283-move-zeroes) |
 | [0321-create-maximum-number](https://github.com/manvith20-alt/Leetcode/tree/master/0321-create-maximum-number) |
 | [0410-split-array-largest-sum](https://github.com/manvith20-alt/Leetcode/tree/master/0410-split-array-largest-sum) |
 | [0485-max-consecutive-ones](https://github.com/manvith20-alt/Leetcode/tree/master/0485-max-consecutive-ones) |
@@ -95,6 +96,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0125-valid-palindrome](https://github.com/manvith20-alt/Leetcode/tree/master/0125-valid-palindrome) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/manvith20-alt/Leetcode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0189-rotate-array](https://github.com/manvith20-alt/Leetcode/tree/master/0189-rotate-array) |
+| [0283-move-zeroes](https://github.com/manvith20-alt/Leetcode/tree/master/0283-move-zeroes) |
 | [0321-create-maximum-number](https://github.com/manvith20-alt/Leetcode/tree/master/0321-create-maximum-number) |
 | [0344-reverse-string](https://github.com/manvith20-alt/Leetcode/tree/master/0344-reverse-string) |
 | [0567-permutation-in-string](https://github.com/manvith20-alt/Leetcode/tree/master/0567-permutation-in-string) |
