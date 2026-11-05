@@ -4,7 +4,6 @@ class Solution {
         if (N < 0) {
             N = -N;
         }
-
         double ans = 1.0;
         double base = x;
 
@@ -12,11 +11,9 @@ class Solution {
             if (N % 2 == 1) {
                 ans *= base;
             }
-
             base *= base;
             N /= 2;
         }
-
         return n < 0 ? 1.0 / ans : ans;
     }
 }
