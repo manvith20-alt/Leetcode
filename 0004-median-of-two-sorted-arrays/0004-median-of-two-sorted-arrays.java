@@ -16,7 +16,7 @@ class Solution {
         Arrays.sort(arr);
         if(arr.length%2==0){
             int n = arr.length/2;
-            val = (double)(arr[n]+arr[n-1])/2;
+            val = ((double) arr[n] + arr[n-1]) / 2;
         }
         else{
             val = arr[(arr.length)/2];
