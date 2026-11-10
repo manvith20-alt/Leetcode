@@ -25,6 +25,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/manvith20-alt/Leetcode/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0162-find-peak-element](https://github.com/manvith20-alt/Leetcode/tree/master/0162-find-peak-element) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/manvith20-alt/Leetcode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
+| [0169-majority-element](https://github.com/manvith20-alt/Leetcode/tree/master/0169-majority-element) |
 | [0189-rotate-array](https://github.com/manvith20-alt/Leetcode/tree/master/0189-rotate-array) |
 | [0198-house-robber](https://github.com/manvith20-alt/Leetcode/tree/master/0198-house-robber) |
 | [0209-minimum-size-subarray-sum](https://github.com/manvith20-alt/Leetcode/tree/master/0209-minimum-size-subarray-sum) |
@@ -68,6 +69,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0003-longest-substring-without-repeating-characters](https://github.com/manvith20-alt/Leetcode/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0030-substring-with-concatenation-of-all-words](https://github.com/manvith20-alt/Leetcode/tree/master/0030-substring-with-concatenation-of-all-words) |
 | [0076-minimum-window-substring](https://github.com/manvith20-alt/Leetcode/tree/master/0076-minimum-window-substring) |
+| [0169-majority-element](https://github.com/manvith20-alt/Leetcode/tree/master/0169-majority-element) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/manvith20-alt/Leetcode/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0496-next-greater-element-i](https://github.com/manvith20-alt/Leetcode/tree/master/0496-next-greater-element-i) |
 | [0523-continuous-subarray-sum](https://github.com/manvith20-alt/Leetcode/tree/master/0523-continuous-subarray-sum) |
@@ -139,6 +141,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0015-3sum](https://github.com/manvith20-alt/Leetcode/tree/master/0015-3sum) |
 | [0075-sort-colors](https://github.com/manvith20-alt/Leetcode/tree/master/0075-sort-colors) |
 | [0088-merge-sorted-array](https://github.com/manvith20-alt/Leetcode/tree/master/0088-merge-sorted-array) |
+| [0169-majority-element](https://github.com/manvith20-alt/Leetcode/tree/master/0169-majority-element) |
 | [1552-magnetic-force-between-two-balls](https://github.com/manvith20-alt/Leetcode/tree/master/1552-magnetic-force-between-two-balls) |
 ## Prefix Sum
 |  |
@@ -259,6 +262,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Counting
 |  |
 | ------- |
+| [0169-majority-element](https://github.com/manvith20-alt/Leetcode/tree/master/0169-majority-element) |
 | [0992-subarrays-with-k-different-integers](https://github.com/manvith20-alt/Leetcode/tree/master/0992-subarrays-with-k-different-integers) |
 ## Matrix
 |  |
@@ -290,6 +294,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/manvith20-alt/Leetcode/tree/master/0004-median-of-two-sorted-arrays) |
 | [0053-maximum-subarray](https://github.com/manvith20-alt/Leetcode/tree/master/0053-maximum-subarray) |
+| [0169-majority-element](https://github.com/manvith20-alt/Leetcode/tree/master/0169-majority-element) |
 | [0918-maximum-sum-circular-subarray](https://github.com/manvith20-alt/Leetcode/tree/master/0918-maximum-sum-circular-subarray) |
 ## String
 |  |
@@ -409,4 +414,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0494-target-sum](https://github.com/manvith20-alt/Leetcode/tree/master/0494-target-sum) |
+## Boyer–Moore Majority Vote Algorithm
+|  |
+| ------- |
+| [0169-majority-element](https://github.com/manvith20-alt/Leetcode/tree/master/0169-majority-element) |
 <!---LeetCode Topics End-->
