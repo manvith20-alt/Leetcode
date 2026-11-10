@@ -12,6 +12,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0035-search-insert-position](https://github.com/manvith20-alt/Leetcode/tree/master/0035-search-insert-position) |
 | [0042-trapping-rain-water](https://github.com/manvith20-alt/Leetcode/tree/master/0042-trapping-rain-water) |
 | [0053-maximum-subarray](https://github.com/manvith20-alt/Leetcode/tree/master/0053-maximum-subarray) |
+| [0066-plus-one](https://github.com/manvith20-alt/Leetcode/tree/master/0066-plus-one) |
 | [0074-search-a-2d-matrix](https://github.com/manvith20-alt/Leetcode/tree/master/0074-search-a-2d-matrix) |
 | [0075-sort-colors](https://github.com/manvith20-alt/Leetcode/tree/master/0075-sort-colors) |
 | [0078-subsets](https://github.com/manvith20-alt/Leetcode/tree/master/0078-subsets) |
@@ -275,6 +276,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0050-powx-n](https://github.com/manvith20-alt/Leetcode/tree/master/0050-powx-n) |
 | [0062-unique-paths](https://github.com/manvith20-alt/Leetcode/tree/master/0062-unique-paths) |
+| [0066-plus-one](https://github.com/manvith20-alt/Leetcode/tree/master/0066-plus-one) |
 | [0069-sqrtx](https://github.com/manvith20-alt/Leetcode/tree/master/0069-sqrtx) |
 | [0070-climbing-stairs](https://github.com/manvith20-alt/Leetcode/tree/master/0070-climbing-stairs) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/manvith20-alt/Leetcode/tree/master/0150-evaluate-reverse-polish-notation) |
