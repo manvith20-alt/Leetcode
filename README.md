@@ -349,6 +349,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0232-implement-queue-using-stacks](https://github.com/manvith20-alt/Leetcode/tree/master/0232-implement-queue-using-stacks) |
 | [0622-design-circular-queue](https://github.com/manvith20-alt/Leetcode/tree/master/0622-design-circular-queue) |
 | [0641-design-circular-deque](https://github.com/manvith20-alt/Leetcode/tree/master/0641-design-circular-deque) |
+| [0707-design-linked-list](https://github.com/manvith20-alt/Leetcode/tree/master/0707-design-linked-list) |
 | [0901-online-stock-span](https://github.com/manvith20-alt/Leetcode/tree/master/0901-online-stock-span) |
 | [1381-design-a-stack-with-increment-operation](https://github.com/manvith20-alt/Leetcode/tree/master/1381-design-a-stack-with-increment-operation) |
 ## Data Stream
@@ -390,6 +391,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0206-reverse-linked-list](https://github.com/manvith20-alt/Leetcode/tree/master/0206-reverse-linked-list) |
 | [0622-design-circular-queue](https://github.com/manvith20-alt/Leetcode/tree/master/0622-design-circular-queue) |
 | [0641-design-circular-deque](https://github.com/manvith20-alt/Leetcode/tree/master/0641-design-circular-deque) |
+| [0707-design-linked-list](https://github.com/manvith20-alt/Leetcode/tree/master/0707-design-linked-list) |
 ## Quicksort
 |  |
 | ------- |
