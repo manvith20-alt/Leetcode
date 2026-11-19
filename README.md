@@ -33,6 +33,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0217-contains-duplicate](https://github.com/manvith20-alt/Leetcode/tree/master/0217-contains-duplicate) |
 | [0238-product-of-array-except-self](https://github.com/manvith20-alt/Leetcode/tree/master/0238-product-of-array-except-self) |
 | [0239-sliding-window-maximum](https://github.com/manvith20-alt/Leetcode/tree/master/0239-sliding-window-maximum) |
+| [0268-missing-number](https://github.com/manvith20-alt/Leetcode/tree/master/0268-missing-number) |
 | [0283-move-zeroes](https://github.com/manvith20-alt/Leetcode/tree/master/0283-move-zeroes) |
 | [0321-create-maximum-number](https://github.com/manvith20-alt/Leetcode/tree/master/0321-create-maximum-number) |
 | [0410-split-array-largest-sum](https://github.com/manvith20-alt/Leetcode/tree/master/0410-split-array-largest-sum) |
@@ -77,6 +78,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0160-intersection-of-two-linked-lists](https://github.com/manvith20-alt/Leetcode/tree/master/0160-intersection-of-two-linked-lists) |
 | [0169-majority-element](https://github.com/manvith20-alt/Leetcode/tree/master/0169-majority-element) |
 | [0217-contains-duplicate](https://github.com/manvith20-alt/Leetcode/tree/master/0217-contains-duplicate) |
+| [0268-missing-number](https://github.com/manvith20-alt/Leetcode/tree/master/0268-missing-number) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/manvith20-alt/Leetcode/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0496-next-greater-element-i](https://github.com/manvith20-alt/Leetcode/tree/master/0496-next-greater-element-i) |
 | [0523-continuous-subarray-sum](https://github.com/manvith20-alt/Leetcode/tree/master/0523-continuous-subarray-sum) |
@@ -140,6 +142,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0162-find-peak-element](https://github.com/manvith20-alt/Leetcode/tree/master/0162-find-peak-element) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/manvith20-alt/Leetcode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0209-minimum-size-subarray-sum](https://github.com/manvith20-alt/Leetcode/tree/master/0209-minimum-size-subarray-sum) |
+| [0268-missing-number](https://github.com/manvith20-alt/Leetcode/tree/master/0268-missing-number) |
 | [0410-split-array-largest-sum](https://github.com/manvith20-alt/Leetcode/tree/master/0410-split-array-largest-sum) |
 | [0704-binary-search](https://github.com/manvith20-alt/Leetcode/tree/master/0704-binary-search) |
 | [0713-subarray-product-less-than-k](https://github.com/manvith20-alt/Leetcode/tree/master/0713-subarray-product-less-than-k) |
@@ -157,6 +160,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0088-merge-sorted-array](https://github.com/manvith20-alt/Leetcode/tree/master/0088-merge-sorted-array) |
 | [0169-majority-element](https://github.com/manvith20-alt/Leetcode/tree/master/0169-majority-element) |
 | [0217-contains-duplicate](https://github.com/manvith20-alt/Leetcode/tree/master/0217-contains-duplicate) |
+| [0268-missing-number](https://github.com/manvith20-alt/Leetcode/tree/master/0268-missing-number) |
 | [0977-squares-of-a-sorted-array](https://github.com/manvith20-alt/Leetcode/tree/master/0977-squares-of-a-sorted-array) |
 | [1552-magnetic-force-between-two-balls](https://github.com/manvith20-alt/Leetcode/tree/master/1552-magnetic-force-between-two-balls) |
 ## Prefix Sum
@@ -298,6 +302,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0189-rotate-array](https://github.com/manvith20-alt/Leetcode/tree/master/0189-rotate-array) |
 | [0224-basic-calculator](https://github.com/manvith20-alt/Leetcode/tree/master/0224-basic-calculator) |
 | [0227-basic-calculator-ii](https://github.com/manvith20-alt/Leetcode/tree/master/0227-basic-calculator-ii) |
+| [0268-missing-number](https://github.com/manvith20-alt/Leetcode/tree/master/0268-missing-number) |
 | [0412-fizz-buzz](https://github.com/manvith20-alt/Leetcode/tree/master/0412-fizz-buzz) |
 | [0509-fibonacci-number](https://github.com/manvith20-alt/Leetcode/tree/master/0509-fibonacci-number) |
 | [0523-continuous-subarray-sum](https://github.com/manvith20-alt/Leetcode/tree/master/0523-continuous-subarray-sum) |
@@ -433,6 +438,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0078-subsets](https://github.com/manvith20-alt/Leetcode/tree/master/0078-subsets) |
+| [0268-missing-number](https://github.com/manvith20-alt/Leetcode/tree/master/0268-missing-number) |
 ## Knapsack Problem
 |  |
 | ------- |
