@@ -310,6 +310,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0224-basic-calculator](https://github.com/manvith20-alt/Leetcode/tree/master/0224-basic-calculator) |
 | [0227-basic-calculator-ii](https://github.com/manvith20-alt/Leetcode/tree/master/0227-basic-calculator-ii) |
 | [0268-missing-number](https://github.com/manvith20-alt/Leetcode/tree/master/0268-missing-number) |
+| [0292-nim-game](https://github.com/manvith20-alt/Leetcode/tree/master/0292-nim-game) |
 | [0412-fizz-buzz](https://github.com/manvith20-alt/Leetcode/tree/master/0412-fizz-buzz) |
 | [0509-fibonacci-number](https://github.com/manvith20-alt/Leetcode/tree/master/0509-fibonacci-number) |
 | [0523-continuous-subarray-sum](https://github.com/manvith20-alt/Leetcode/tree/master/0523-continuous-subarray-sum) |
@@ -465,4 +466,24 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0141-linked-list-cycle](https://github.com/manvith20-alt/Leetcode/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/manvith20-alt/Leetcode/tree/master/0142-linked-list-cycle-ii) |
+## Brainteaser
+|  |
+| ------- |
+| [0292-nim-game](https://github.com/manvith20-alt/Leetcode/tree/master/0292-nim-game) |
+## Minimax
+|  |
+| ------- |
+| [0292-nim-game](https://github.com/manvith20-alt/Leetcode/tree/master/0292-nim-game) |
+## Game Theory
+|  |
+| ------- |
+| [0292-nim-game](https://github.com/manvith20-alt/Leetcode/tree/master/0292-nim-game) |
+## Nim Game
+|  |
+| ------- |
+| [0292-nim-game](https://github.com/manvith20-alt/Leetcode/tree/master/0292-nim-game) |
+## Impartial Game
+|  |
+| ------- |
+| [0292-nim-game](https://github.com/manvith20-alt/Leetcode/tree/master/0292-nim-game) |
 <!---LeetCode Topics End-->
