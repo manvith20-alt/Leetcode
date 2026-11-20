@@ -4,13 +4,14 @@ class Solution {
     int l = 0;
     int r = n-1;
     while(l<r){
-        if(numbers[l]+numbers[r] == target)
+        int sum = numbers[l]+numbers[r];
+        if(sum == target)
             return new int []{l+1,r+1};
 
-        if(numbers[l]+numbers[r] > target )
+        if(sum > target )
             r--;
         
-        else if (numbers[l]+numbers[r] < target)
+        else if (sum < target)
             l++;
     }
     return new int []{};
