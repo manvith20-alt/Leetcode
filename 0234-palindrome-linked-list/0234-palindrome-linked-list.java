@@ -17,7 +17,7 @@ class Solution {
             dummy = dummy.next;
         }
         int j=list.size()-1;
-        for(int i=0;i<list.size();i++){
+        for(int i=0;i<list.size()/2;i++){
             if(list.get(i)!=list.get(j)){
                 return false;
             }
