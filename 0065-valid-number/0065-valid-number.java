@@ -1,40 +1,51 @@
 class Solution {
     public boolean isNumber(String s) {
 
+        s = s.trim();
+
+        if(s.length() == 0) return false;
+
+        int i = 0;
+
+        if(s.charAt(i) == '+' || s.charAt(i) == '-') {
+            i++;
+        }
+
         boolean digit = false;
-        boolean dot = false;
-        boolean exp = false;
 
-        for(int i = 0; i < s.length(); i++) {
+        while(i < s.length() && Character.isDigit(s.charAt(i))) {
+            digit = true;
+            i++;
+        }
 
-            char ch = s.charAt(i);
+        if(i < s.length() && s.charAt(i) == '.') {
+            i++;
 
-            if(Character.isDigit(ch)) {
+            while(i < s.length() && Character.isDigit(s.charAt(i))) {
                 digit = true;
-            }
-            else if(ch == '+' || ch == '-') {
-                if(i > 0 && s.charAt(i-1) != 'e' && s.charAt(i-1) != 'E') {
-                    return false;
-                }
-            }
-            else if(ch == '.') {
-                if(dot || exp) {
-                    return false;
-                }
-                dot = true;
-            }
-            else if(ch == 'e' || ch == 'E') {
-                if(exp || !digit) {
-                    return false;
-                }
-                exp = true;
-                digit = false;
-            }
-            else {
-                return false;
+                i++;
             }
         }
 
-        return digit;
+        if(!digit) return false;
+
+        if(i < s.length() && (s.charAt(i) == 'e' || s.charAt(i) == 'E')) {
+            i++;
+
+            if(i < s.length() && (s.charAt(i) == '+' || s.charAt(i) == '-')) {
+                i++;
+            }
+
+            boolean expDigit = false;
+
+            while(i < s.length() && Character.isDigit(s.charAt(i))) {
+                expDigit = true;
+                i++;
+            }
+
+            if(!expDigit) return false;
+        }
+
+        return i == s.length();
     }
 }
