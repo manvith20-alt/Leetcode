@@ -335,6 +335,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0030-substring-with-concatenation-of-all-words](https://github.com/manvith20-alt/Leetcode/tree/master/0030-substring-with-concatenation-of-all-words) |
 | [0032-longest-valid-parentheses](https://github.com/manvith20-alt/Leetcode/tree/master/0032-longest-valid-parentheses) |
 | [0058-length-of-last-word](https://github.com/manvith20-alt/Leetcode/tree/master/0058-length-of-last-word) |
+| [0065-valid-number](https://github.com/manvith20-alt/Leetcode/tree/master/0065-valid-number) |
 | [0076-minimum-window-substring](https://github.com/manvith20-alt/Leetcode/tree/master/0076-minimum-window-substring) |
 | [0125-valid-palindrome](https://github.com/manvith20-alt/Leetcode/tree/master/0125-valid-palindrome) |
 | [0151-reverse-words-in-a-string](https://github.com/manvith20-alt/Leetcode/tree/master/0151-reverse-words-in-a-string) |
