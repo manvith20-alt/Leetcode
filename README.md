@@ -81,6 +81,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0160-intersection-of-two-linked-lists](https://github.com/manvith20-alt/Leetcode/tree/master/0160-intersection-of-two-linked-lists) |
 | [0169-majority-element](https://github.com/manvith20-alt/Leetcode/tree/master/0169-majority-element) |
 | [0217-contains-duplicate](https://github.com/manvith20-alt/Leetcode/tree/master/0217-contains-duplicate) |
+| [0242-valid-anagram](https://github.com/manvith20-alt/Leetcode/tree/master/0242-valid-anagram) |
 | [0268-missing-number](https://github.com/manvith20-alt/Leetcode/tree/master/0268-missing-number) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/manvith20-alt/Leetcode/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0496-next-greater-element-i](https://github.com/manvith20-alt/Leetcode/tree/master/0496-next-greater-element-i) |
@@ -166,6 +167,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0088-merge-sorted-array](https://github.com/manvith20-alt/Leetcode/tree/master/0088-merge-sorted-array) |
 | [0169-majority-element](https://github.com/manvith20-alt/Leetcode/tree/master/0169-majority-element) |
 | [0217-contains-duplicate](https://github.com/manvith20-alt/Leetcode/tree/master/0217-contains-duplicate) |
+| [0242-valid-anagram](https://github.com/manvith20-alt/Leetcode/tree/master/0242-valid-anagram) |
 | [0268-missing-number](https://github.com/manvith20-alt/Leetcode/tree/master/0268-missing-number) |
 | [0977-squares-of-a-sorted-array](https://github.com/manvith20-alt/Leetcode/tree/master/0977-squares-of-a-sorted-array) |
 | [1552-magnetic-force-between-two-balls](https://github.com/manvith20-alt/Leetcode/tree/master/1552-magnetic-force-between-two-balls) |
@@ -343,6 +345,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0151-reverse-words-in-a-string](https://github.com/manvith20-alt/Leetcode/tree/master/0151-reverse-words-in-a-string) |
 | [0224-basic-calculator](https://github.com/manvith20-alt/Leetcode/tree/master/0224-basic-calculator) |
 | [0227-basic-calculator-ii](https://github.com/manvith20-alt/Leetcode/tree/master/0227-basic-calculator-ii) |
+| [0242-valid-anagram](https://github.com/manvith20-alt/Leetcode/tree/master/0242-valid-anagram) |
 | [0316-remove-duplicate-letters](https://github.com/manvith20-alt/Leetcode/tree/master/0316-remove-duplicate-letters) |
 | [0344-reverse-string](https://github.com/manvith20-alt/Leetcode/tree/master/0344-reverse-string) |
 | [0394-decode-string](https://github.com/manvith20-alt/Leetcode/tree/master/0394-decode-string) |
