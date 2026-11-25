@@ -10,27 +10,31 @@
  */
 class Solution {
     public ListNode rotateRight(ListNode head, int k) {
-        if(head ==null || head.next==null){
+        if(head == null || head.next == null) {
             return head;
         }
-        ArrayList<Integer> list  = new ArrayList<>();
+        int n =0;
         ListNode dummy = head;
-        while(dummy != null){
-            list.add(dummy.val);
+        while(dummy != null) {
+            n++;
             dummy = dummy.next;
         }
 
-        for(int i = 0;i<k%list.size();i++){
-            int temp = list.get(list.size()-1);
-            list.remove(list.size()-1);
-            list.add(0,temp);
-        }
-        dummy =head;
+        k = k % n;
 
-        for(int i=0;i<list.size();i++){
-            dummy.val = list.get(i);
-            dummy = dummy.next;
+        for(int i=0;i<k;i++){
+            dummy =head;
+            ListNode prev = null;
+            while(dummy.next != null){
+                prev = dummy;
+                dummy = dummy.next;
+            }
+            dummy.next = head;
+            prev.next = null;
+            head = dummy;
+    
         }
+
         return head;
     }
 }
